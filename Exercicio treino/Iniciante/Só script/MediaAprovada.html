@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div>
+        <p>Digite o salario<br/>
+        <input type="number" id="Salario"><br/>
+        Digite o Valor do Emprestimo <br/>
+        <input type="number" id="Emprestimo"><br/>
+        <input type="button" value ='Clique Aqui' onclick="conta()">
+        <div id= "l1">....</div>
+        <div id="l2">...</div>
+        </p>
+    </div>
+</section>
+    
+    <script>
+        function conta(){
+      window.alert('funfa')
+      var Salario = window.document.getElementById("Salario");
+      var text = document.getElementById("l1")
+      var SalarioReal = Number(Salario.value)
+      text.innerHTML = (`${Salario}`)
+      var emprestimo = window.document.getElementById("Emprestimo");
+      var text2 = document.getElementById("l2")
+      text2.innerHTML = (`${emprestimo}`)
+       /* 
+       var emrestimo = Number(window.document.getElementById("Salario"));
+        var salario = Number(window.document.getElementById("Emprestimo"));
+        var condicaoUm = Number((salario*20)/100)
+       if(condicaoUm.value >= emprestimo.value){
+            window.alert(`Seu emprestimo foi solicitado.`);
+        }else(condicaoUm.value < emrestimo.value);{
+            window.alert('Se emprétismo foi recusado');
+        }}
+        */
+    }
+</script>
+</body>
+</html>

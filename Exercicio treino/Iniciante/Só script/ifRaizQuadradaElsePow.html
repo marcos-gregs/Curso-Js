@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exe2.Raiz e Potencia</title>
+</head>
+<body>
+    <script>
+        var numeroReal = Number.parseFloat(window.prompt("Digite um numero."));
+        numeroReal.toFixed(2).replace('.','.');
+        if(numeroReal >= 0){
+            var raizQuadrada = Math.sqrt(numeroReal);
+            raizQuadrada.toFixed(2).replace('.',',');
+            window.alert(`A raiz quadrada de ${numeroReal} é ${raizQuadrada}`)
+            }else{
+            var elevar = Math.pow(numeroReal,2)
+            elevar.toFixed(2).replace('.',',')
+            window.alert(`O numero ${numeroReal} elevado ao quadrado é ${elevar}`)
+
+            }
+    </script>
+</body>
+</html>
