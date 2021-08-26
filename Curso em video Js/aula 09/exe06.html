@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Começando com o DOM </title>
+     <style>
+         body{
+             background-color: cornsilk;
+             color: black;
+             font: normal 18 pt Arial;
+         }
+     </style>
+</head>
+
+<body>
+    <h1>Iniciando Estudos DOM</h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> no JavaScript</p>
+    <div class="msg">Clique em mim</div>
+    <script>
+        /*Seletor
+        .querySelector()
+        .querySelectorAll()
+       */
+       
+       var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p1.innerHTML)
+        var d = window.document.querySelector('div.msg')
+        d.style.background= 'blue'
+              
+        d.innerText ='Estou aguardando'
+
+         /*Selecionando:
+
+         .getElemntsByTagName()[0]
+         - Por MARCA que no caso é a tag,e utilizamos o simbolo do vetor para mapear a tag.  
+        
+         var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+        
+       .getElementById()
+        - Por ID,indicamos o id após a tag principal,exe: <div id='msg'></div>,indicando o id é '#' ,div#msg
+        var d = window.document.getElementById('msg')
+        d.style.background= 'green'
+        d.innerText ='Estou aguardando'
+        
+       .getElementsByClassName()
+        -Por classe,quando denominamos uma classe para a tag,ex <div class = 'msg'></div>,indicamos a classe com o '.',div.msg
+         var d = window.document.getElementsByClassName()('msg')
+        d.style.background= 'green'
+        d.innerText ='Estou aguardando'
+           
+        innerText - manda um texto ou o texto selecionado.
+        innerHtml - manda  o codigo com a tag,exempo (p,1).
+      */
+        
+ </script>
+</body>
+</html>

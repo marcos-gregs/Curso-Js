@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numeroDigitado = Number(window.prompt('Digite o numero desejado'));
+        if (numeroDigitado >0){
+            var raizQuadrada = Math.sqrt(numeroDigitado);//Math.sqrt() para razi quadrada
+            var elevado = Math.pow(numeroDigitado,2);//Math.pow() para elevar o numero.Ex Math.Pow(expoente,elevação).
+            window.alert(`O numero ${numeroDigitado} elevado ao quadrado é ${elevado} e a raiz quadrada do mesmo é ${raizQuadrada}`);
+        }else{
+            window.alert("Numero invalido!");
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro programa </title>
+    <style>
+        body{
+            background-color: rgb(63, 221, 116);
+            color: white;
+            font: normal 20pt arial;
+           }
+           h1{
+               color: rgb(3, 29, 23);
+           }
+    </style>
+</head>
+<body> 
+    <h1>Hello word</h1>
+    <p>Me livrei da maldição.</p> 
+    <script>
+              var n1 = Number.parseInt(window.prompt("Digite o um numero: "))
+              var n2 = Number.parseInt(window.prompt("Digite outro numero:"))
+              var soma = n1 + n2
+                window.alert(`A soma do ${n1} e ${n2} é igual á ${soma}`)//Template string//
+                /* 
+                Conversão de valores.
+                Numeros > String.
+                Caso queira converter que o valor da variavel de um numero para string eu utilizo.
+                String(n);
+                n.toString(n);
+                String >Numeros.
+                Caso queira converter que o valor da variavel de um String para numero eu utilizo.
+                Number(); aqui o js fica livre para decidir se o valor é real ou inteiro.
+                Number.ParseInt(); utilizado para numero inteiro.
+                Number.ParsEFloat(); utilizado para numero real.
+                -------- * -------- * -------- * -------- * -------- * -------- * -------- * -------- 
+                (String + string) = concatenação(por isso da conversão de dados nos prompt)
+                (number +number)  = soma
+                + para adição *STRING
+                + para concatenção
+                */
+    </script>
+</body>
+</html> 

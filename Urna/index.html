@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna do League of legends.</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="urna">
+        <div class= "tela">
+            <div class="primeiraLinha">
+             <div class ="left">
+                 
+             
+             <div class="leftUm">
+                 <span>SEU VOTO </span>
+             </div>
+             <div class="leftDois">
+                 <span>Vereador</span>
+             </div>
+             <div class="leftTres">
+                 <div class="primeiroNumero pisca"></div>
+                 <div class="primeiroNumero"></div>
+             </div>
+             <div class="leftQuatro">
+                 Nome:<br/>
+                 Partido:<br/>
+                 Vice-Prefeito:
+             </div>
+            </div>
+             <div class="right">
+             <div class="rigthImagem" >
+                 <img src="Imagens/01.jpg" alt=""/>
+                 Prefeito
+             </div>  
+             <div class="rigthImagem small" >
+                <img src="Imagens/02.jpg" alt=""/>
+                Vice-Prefeito
+            </div>
+            </div>
+            
+            </div>
+            
+            
+
+            <div class="segundaLinha">
+                Aperte na tela:<br/>
+                CONFIRMA para CONFIRMAR seu voto <br/>
+                CORRIGE para REINICIAR seu voto <br/>
+         </div>
+        </div>
+       <!---->
+        <div class="teclado"><!--config do teclado-->
+            <div class="tecladoLinha"><!--design do espaçamento das linhas e centralização dos dados.--> 
+                <div class="tecladoBotao" onclick="clicou('1')">1</div>
+                <div class="tecladoBotao" onclick="clicou('2')">2</div>
+                <div class="tecladoBotao" onclick="clicou('3')">3</div>
+                </div>
+            <div class="tecladoLinha"><!--Fuction clicou -->
+                <div class="tecladoBotao" onclick="clicou('4')">4</div>
+                <div class="tecladoBotao" onclick="clicou('5')">5</div>
+                <div class="tecladoBotao" onclick="clicou('6')">6</div>
+                </div>
+            <div class="tecladoLinha">
+                    <div class="tecladoBotao" onclick="clicou('7')">7</div>
+                    <div class="tecladoBotao" onclick="clicou('8')">8</div>
+                    <div class="tecladoBotao" onclick="clicou('9')">9</div>
+                    </div>
+            <div class="tecladoLinha">
+                    <div class="tecladoBotao"onclick="clicou('0')">0</div>
+                    </div>
+            <div class="tecladoLinha"><!--Fuction branco,confirma e corrigi -->
+                    <div class="tecladoBranco"onclick="branco()">Branco</div>
+                    <div class="tecladoConfirma"onclick="confirma()">Confirma</div>
+                    <div class="tecladoCorrige" onclick="corrigi()">Corrigir</div>
+                    </div>
+        </div>
+    </div>
+    <script src="lista.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
