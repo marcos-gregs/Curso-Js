@@ -1,0 +1,27 @@
+body{
+    
+    width: 400px;
+    text-align: center;
+    }
+select{
+    padding: auto;
+    margin: 5px;
+    width: 300px;
+    background-color: rgb(5, 2, 2);
+    color: rgb(11, 248, 11);
+}
+header{
+    border-radius: 5px;
+    background-color: rgb(41, 12, 12);
+    color: rgb(15, 97, 219);
+}
+div{
+    border-radius: 5px;
+    background-color: black;
+    height: auto;
+    }
+button{
+    color:rgb(11, 248, 11) ;
+    margin: 2px;
+    background-color: black;
+}

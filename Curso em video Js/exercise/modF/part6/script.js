@@ -53,7 +53,7 @@ function finalizar(){
                maior = valores[pos]
            }
            if(valores[pos]< menor){
-               menor =valores{pos}
+               menor =valores[pos]
            }
        }
         media = soma/tot
