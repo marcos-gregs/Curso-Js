@@ -4,7 +4,7 @@ function verificar(){
     var anoNasc =document.getElementsByName('txtano')
     var result = document.querySelector('div.res')
     if (anoNasc.value  == 0 || anoNasc.value > ano){
-        window.alert("Algo esta errado,engraçadinho tente de novo")
+        alert("Algo esta errado,engraçadinho tente de novo")
     }else{
         var buttonSex = document.getElementsByName('redsex')
         var idade = Number(ano - anoNasc.value)
@@ -16,10 +16,10 @@ function verificar(){
             if(idade >= 0 && idade <15){
                 //criança
                 img.setAttribute('src', 'crianca.png')
-            }else if (idade > 15 && idade <19){
+            }else if (idade <19){
                 //jovem
                 img.setAttribute('src', 'jovemb.png')
-            }else if(idade > 19 && idade < 66 ){
+            }else if(idade < 66 ){
                //adulto
                 img.setAttribute('src', 'adulto.png')
             }else {
@@ -32,10 +32,10 @@ function verificar(){
             if(idade >= 0 && idade <15){
                 //criança
                 img.setAttribute('src','menina.png')
-            }else if (idade > 15 && idade <19){
+            }else if (idade <19){
                 //jovem
                 img.setAttribute('src', 'jovemG.png')
-            }else if(idade > 19 && idade < 66 ){
+            }else if(idade < 66 ){
                 //adulto
                 img.setAttribute('src', 'adulta.png')
             }else{

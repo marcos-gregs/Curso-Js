@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+}
+div{
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+
+}
+.redondo{
+    border-radius: 50px;
+    height: 10px;
+    width: 5px;
+    align-items: center;
+}
+#green{
+    background-color: green;
+}
